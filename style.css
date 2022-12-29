@@ -1,0 +1,141 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and(max-width:1140) {
+
+}
+
+@media screen and(max-width:960) {
+
+}
+
+@media screen and(max-width:720) {
+
+}
+
+@media screen and(max-width:540) {
+
+}
+
+th, td, table {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+.line {
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+hr {
+    background-color: rgb(42, 42, 42);
+    height: 1px;
+}
+
+#header {
+    background-color: rgb(42, 42, 42);
+    color: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#header h1 {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.navbar {
+    font-size: 15px;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 24.5px 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar :hover {
+    color: coral;
+    background-color: rgb(80, 80, 80);
+}
+
+#banner {
+    margin-left: 25%;
+}
+
+footer h4 {
+    display: inline;
+}
+
+#location {
+    background-image: url(img/location.PNG);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#location h1 {
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: rgb(42, 42, 42);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.developers {
+    text-align: center;
+}
+
+.developers h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(80, 80, 80);
+    padding-top: 15px;
+}
+
+.line2 {
+    height: 2px;
+    background-color: #000;
+    margin: 15px;
+}
+
+.png {
+    padding-top: 7px;
+    letter-spacing: 10px;
+    display: block;
+}
